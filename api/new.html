@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 80%;
+            margin-left: 50%;
+            border: 2px solid;
+            
+        }
+    img{
+        height: 300px;
+        width: 300px;
+    }
+    .content{
+     margin-left: 50px;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class=".content">
+            <label for="name">name</label>
+            <input type="text" placeholder="input your name" id="d1">
+            <button onclick="ap()">ok</button>
+        </div>
+        <img src="cry.png" alt="not supported" id="imm">
+    </div>
+
+    <script>
+        function ap(){
+            var url="https://joeschmoe.io/api/v1/";
+            var la=document.getElementById("d1").value
+            document.getElementById("imm").src=url + la;
+}
+        
+    </script>
+</body>
+</html>

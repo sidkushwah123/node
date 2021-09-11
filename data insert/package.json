@@ -1,0 +1,14 @@
+{
+  "name": "data-insert",
+  "version": "1.0.0",
+  "description": "data",
+  "main": "ex.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sachin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

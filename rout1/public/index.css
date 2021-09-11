@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background: radial-gradient(blue,gray);
+    background-image: url(eve.jpg);
+    background-size: cover;
+    padding: 0;
+
+}
+nav{
+    background-color: black;
+    width: 100%;
+    height: 70px;
+    
+    
+}
+.logo{
+    width: 250px;
+    height: 65px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-size: cover;
+}
+.menubar{
+    width: 25%;
+    float: right;
+    height: 35px;
+    margin-top: 22px;
+    
+}
+.a
+{ color:#ECECEC;
+  text-decoration:none;
+  margin-left:5px;
+}
+.a:hover
+{
+	color:#FF9831
+}
+.bgcover
+{
+	width: 100%;
+	height: 350px;
+	background-color: #03F;
+	opacity: 0.3;
+	text-align: center;
+	position: absolute;
+	
+	
+	
+}
+.h1
+{      color:#FF8000;
+       font-weight:bold;
+	   font-size:60px;
+	   position: absolute;
+	   margin-top:110px;
+	   margin-left:30%;
+
+    }
+.cont-about{
+    width: 60%;
+    height: 300px;
+    margin: auto;
+    background-color: rgb(235, 172, 128);
+    opacity: 0.8;
+    margin-top: 400px;
+}
+.h2{
+    text-align: center;
+    font-size: 30px;
+}
+.n1{
+    height: 100px;
+}

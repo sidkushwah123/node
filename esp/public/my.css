@@ -1,0 +1,14 @@
+
+
+body{
+    background-color: brown;
+    
+
+}
+.cont{
+    height: 300px;
+    width: 300px;
+    background: url('../image/sky.jpg');
+    background-size: contain;
+    background-size: cover;
+}

@@ -1,0 +1,19 @@
+{
+  "name": "templetred",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sachin",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "pug": "^2.0.4",
+    "twig": "^1.14.0",
+    "twing": "^4.0.2"
+  }
+}
